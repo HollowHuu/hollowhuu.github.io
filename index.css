@@ -4,11 +4,16 @@ body {
     color: white;
 }
 
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
 .header {
     display: block;
     text-align: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header-text {
@@ -17,6 +22,7 @@ body {
 .sub-header-text {
     font-size: 3vmin;
     color: #1b80b3;
+    margin-top: 0;
 }
 
 .box {
@@ -33,11 +39,13 @@ body {
     overflow: hidden;
     color: lightgray;
     text-align: center;
+    margin-top: 5vmin;
 }
 
 .experience-header {
     font-size: 2vmin;
     color: white;
+    margin: 0 auto;
 }
 
 .skills {
