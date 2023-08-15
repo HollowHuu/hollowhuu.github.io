@@ -1,0 +1,45 @@
+
+body {
+    background-color: #373837;
+    color: white;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.header-text {
+    font-size: 5vmin;
+}
+.sub-header-text {
+    font-size: 3vmin;
+    color: #1b80b3;
+}
+
+.box {
+    outline: #1b80b3;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-offset: 5px;
+}
+
+.experience {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    color: lightgray;
+    text-align: center;
+}
+
+.experience-header {
+    font-size: 2vmin;
+    color: white;
+}
+
+.skills {
+    display: flex;
+}
